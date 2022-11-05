@@ -1,0 +1,932 @@
+/* font-family: 'Roboto Slab', serif; */
+/* font-family: 'Open Sans', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1365px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+}
+
+.top-part {
+    background-color: #eee;
+    padding: 13px 0 13px 0;
+}
+
+.top-part .top-parents {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.top-part .top-parents .part-one {
+    width: 33.33%;
+}
+
+.top-part .top-parents .part-two {
+    width: 33.33%;
+    text-align: center;
+}
+
+
+.top-part .top-parents .part-three {
+    width: 33.33%;
+}
+
+.top-part .top-parents .part-one p,
+.top-part .top-parents .part-two p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+}
+
+.top-part .top-parents .part-two p {
+    text-align: center;
+}
+
+.top-part .top-parents .part-two p span {
+    margin-right: 5px;
+}
+
+.top-part .top-parents .part-three ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 18px;
+    justify-content: end;
+
+}
+
+.top-part .top-parents .part-three ul li a {
+    color: black;
+}
+
+
+/* =========== End top bar section ======== */
+.header-part {
+    padding: 15px 0;
+}
+
+.header-part .header-parents {
+    display: flex;
+    align-items: center;
+}
+
+.header-part .header-parents .header-one,
+.header-part .header-parents .header-two,
+.header-part .header-parents .header-three {
+    width: 33%;
+}
+
+.header-part .header-parents .header-two {
+    text-align: center;
+}
+
+.header-part .header-parents .header-three {
+    text-align: right;
+}
+
+.header-part .header-parents .header-one h5 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    line-height: 30px;
+}
+
+.header-part .header-parents .header-one p {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: black;
+    line-height: 24px;
+}
+
+.header-part .header-parents .header-three .contact h5 a {
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+.header-part .header-parents .header-three .contact p a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+}
+
+/* ================== End of header sectin ============== */
+.menu-part {
+    background-color: black;
+}
+
+.menu-part .menu-pntares .menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-part .menu-pntares .menu ul li a {
+    text-decoration: none;
+    color: #eee;
+    padding: 24px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    line-height: 22px;
+}
+
+.menu-part .menu-pntares .menu ul .active {
+    background: red;
+}
+
+.menu-part .menu-pntares .menu ul li a:hover {
+    background-color: red;
+}
+
+
+/* ============= End of menu bar ======= */
+
+.banner-part {
+    background-image: url(../img/banner-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 245px 0;
+}
+
+.banner-part .banner-parents .banner-title {
+    color: white;
+    background-color: black;
+    opacity: .8;
+    width: 100%;
+    padding: 30px;
+    max-width: 856px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-part .banner-parents .banner-title h1 {
+    color: white;
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 26px;
+}
+
+.banner-part .banner-parents .banner-title p {
+    color: #eee;
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+/* ============= End of banner part ========= */
+.inhouse-part {
+    padding: 80px 0;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant {
+    display: flex;
+    align-items: center;
+
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one {
+    width: 61%;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-title h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 42px;
+    font-weight: 700;
+    padding-bottom: 65px;
+    position: relative;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-title h1::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background: red;
+    bottom: 39px;
+    left: 0;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-des p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    max-width: 96%;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-des {
+    position: relative;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-des::after {
+    position: absolute;
+    content: "";
+    height: 415px;
+    width: 415px;
+    background-image: url(../img/inhouse-after.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-btn a {
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 16px 25px;
+    margin-top: 32px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-one .inhouse-btn a:hover {
+    background-color: red;
+    color: #eee;
+    border: 1px solid red;
+    font-family: 'Roboto Slab', serif;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-two {
+    width: 39%;
+}
+
+.inhouse-part .inhouse-parents .inhouse-contant .inhouse-two .inhouse-img img {
+    width: 100%;
+}
+
+/* ========== End of inhouse part ========== */
+
+.areas-part {
+    background: #eee;
+    padding-bottom: 80px;
+}
+
+.areas-part .areas-parents .areas-one .areas-title h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 42px;
+    padding-top: 70px;
+    position: relative;
+}
+
+.areas-part .areas-parents .areas-one .areas-title h2::after {
+    content: "";
+    position: absolute;
+    background: red;
+    width: 80px;
+    height: 4px;
+    left: 46.5%;
+    top: 120%;
+}
+
+
+
+.areas-part .areas-parents .areas-one .areas-des p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card {
+    display: flex;
+    column-gap: 3%;
+
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-1 {
+    width: 31%;
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 25px;
+    border: 1px solid #eee;
+
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-1 .card-img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-1 .card-title h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-1 .card-des p {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-1 .card-btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #929292;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-1 .card-btn a:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-2 {
+    width: 31%;
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 25px;
+    border: 1px solid #eee;
+    margin-top: 40px;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-2 .card-img {
+    width: 90px;
+    height: 90px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-2 .card-title h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-2 .card-des p {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-2 .card-btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #929292;
+}
+
+.areas-part .areas-parents .areas-two .inhouse-card .card-2 .card-btn a:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+/* ======================= End of card part ===================== */
+
+.vedio-part {
+    padding: 71px 0;
+}
+
+.vedio-part .vedio-parents .vedio-one .vedio-title h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.vedio-part .vedio-parents .vedio-one .vedio-des p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 53px;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+}
+
+.vedio-part .vedio-parents .vedio-one .vedio-title ::before {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: red;
+    position: absolute;
+    left: 47%;
+    top: 62px;
+}
+
+.vedio-part .vedio-parents .vedio-two .vedio {
+    display: flex;
+    column-gap: 20px;
+    padding-top: 47px;
+}
+
+/* ========================== end of vedio part================== */
+.contact-part {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Un.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 245px 0;
+}
+
+.contact-part .contact-parents .contact-content {
+    display: flex;
+    align-items: center;
+}
+
+.contact-part .contact-parents .contact-content .contact-title {
+
+    width: 100%;
+    padding: 30px;
+    max-width: 1030px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-part .contact-parents .contact-content .contact-title h2 {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+
+.contact-part .contact-parents .contact-content .contact-title p {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.contact-part .contact-parents .contact-content .contact-title a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 32px;
+}
+
+.contact-part .contact-parents .contact-content .contact-title a:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+/* ================ End of contact  section ================ */
+.blogs-part {
+    padding-bottom: 128px;
+}
+
+.blogs-part .blogs-parents .blogs-title h2 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 70px 0;
+    position: relative;
+}
+
+.blogs-part .blogs-parents .blogs-title h2::after {
+    content: "";
+    height: 4px;
+    width: 81px;
+    background-color: red;
+    position: absolute;
+    left: 47%;
+    top: 72%;
+}
+
+.blogs-part .blogs-parents .blogs-contant {
+    display: flex;
+    column-gap: 54px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-one {
+    position: relative;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-one h3 {
+    position: absolute;
+    top: 326px;
+    background: black;
+    color: white;
+    margin-left: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding: 24px 24px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-one img {
+    padding-bottom: 20px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-two .blogs-author ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-two .blogs-author ul li {
+    margin-right: 46px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-two .blogs-author ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-two .blogs-author ul .real {
+    color: red;
+    margin-right: 10px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-two .blogs-author ul .real .estat {
+    border-bottom: 1px solid red;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-two .blogs-author ul .real .house {
+    border-bottom: 1px solid red;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-three {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-four {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 16px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-five a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding: 15px 23px;
+    display: inline-block;
+    margin-top: 26px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-one .part-five a:hover {
+    background: red;
+    border: 1px solid red;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-one {
+    position: relative;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-one h3 {
+    position: absolute;
+    top: 323px;
+    background: black;
+    color: white;
+    margin-left: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    padding: 24px 24px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-one img {
+    padding-bottom: 20px;
+    width: 100%;
+    height: 422px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-two .blogs-author ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-two .blogs-author ul li {
+    margin-right: 46px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-two .blogs-author ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-two .blogs-author ul .real {
+    color: red;
+    margin-right: 10px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-two .blogs-author ul .real .estat {
+    border-bottom: 1px solid red;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-two .blogs-author ul .real .house {
+    border-bottom: 1px solid red;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-three {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-four {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 16px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-five a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding: 15px 23px;
+    display: inline-block;
+    margin-top: 26px;
+}
+
+.blogs-part .blogs-parents .blogs-contant .blogs-two .part-five a:hover {
+    background: red;
+    border: 1px solid red;
+}
+
+/* ================ end of blogs section ============ */
+
+.footer-part {
+    background: #282628;
+    padding-bottom: 58px;
+}
+
+.footer-part .footer-parents {
+    display: flex;
+}
+
+.footer-part .footer-parents .footer-one {
+    width: 33%;
+    margin-right: 24px;
+}
+
+.footer-part .footer-parents .footer-two {
+    width: 33%;
+    margin-right: 24px;
+}
+
+.footer-part .footer-parents .footer-three {
+    width: 33%;
+}
+
+.footer-part .footer-parents .footer-one .footer-title h2 {
+    color: white;
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    line-height: 30px;
+}
+
+.footer-part .footer-parents .footer-one .footer-des p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 30px 0;
+    max-width: 96%;
+}
+
+.footer-part .footer-parents .footer-one .footer-icon ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-part .footer-parents .footer-one .footer-icon ul li a {
+    color: gray;
+    margin-right: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-part .footer-parents .footer-one .footer-icon ul li a:hover {
+    background: white;
+    color: red;
+    border: 1px solid white;
+}
+
+.footer-part .footer-parents .footer-two .footer-title h2 {
+    color: white;
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    line-height: 30px;
+}
+
+.footer-part .footer-parents .footer-two .footer-ul ul {
+    list-style: none;
+    padding-top: 30px;
+}
+
+.footer-part .footer-parents .footer-two .footer-ul ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    padding-bottom: 13px;
+    padding-top: 14px;
+    display: inline-block;
+    border-bottom: 1px dashed;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.footer-part .footer-parents .footer-three .footer-title h2 {
+    color: white;
+    padding-top: 90px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    line-height: 30px;
+}
+
+.footer-part .footer-parents .footer-three .footer-loc p {
+    color: #eee;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.footer-part .footer-parents .footer-three .footer-loc p .fa-solid {
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.footer-part .footer-parents .footer-three .footer-contact p {
+    color: #eee;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.footer-part .footer-parents .footer-three .footer-contact p a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+}
+
+.footer-part .footer-parents .footer-three .footer-contact p .fa-phone {
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.footer-part .footer-parents .footer-three .footer-mail p {
+    color: #eee;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.footer-part .footer-parents .footer-three .footer-mail .fa-envelope {
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.footer-part .footer-parents .footer-three .footer-mail p a {
+    color: #eee;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* ==================== End of footer ============ */
+.last-part {
+    background: #131413;
+}
+
+.last-part .last-parents p {
+    color: #7d7d7d;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px 0;
+}
